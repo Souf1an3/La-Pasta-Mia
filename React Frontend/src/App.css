@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+  width: 100%;
+  font-family: 'Amatic SC', cursive;
+
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  font-family: "Dosis", serif;
+  background: linear-gradient(250deg,whitesmoke,honeydew);
+}
+
+
+.grocery-head {
+  font-family: 'Amatic SC', cursive;
+  color: #076620;
+}
+
+.grocery-list {
+  text-align: center;
+  width: 100%;
+}
+
+.list-item {
+  cursor: pointer;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  font-size: 22px;
+  transition: 0.2s;
+}
+
+.add-item-box svg {
+  margin: 5px;
+}
+
+
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px #fbc1bb solid;
+}
+
+.item-name {
+  cursor: pointer;
+}
+
+.item-name svg {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.item-action-buttons {
+  /* width: 30%; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.remove-button {
+  color: white;
+  background-color: red;
+}
+
+button {
+/*  background: transparent;*/
+  border: none;
+  margin: 3px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #765725;
+  color: white;
+}
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+
+
+
+
+.deleteIcon  {
+  right: 0;
+  top: 0;
+}
+.grocery-container {
+
+  /*background-image: linear-gradient(45deg, #076620, #cd8f5f);*/
+  /*background-color: #076620;*/
+  /*color: white;*/
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: auto;
+  height: min-content;
+  max-width: 500px;
+  align-items: center;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.35);
+}
+
+.recipe-name {
+  font-family: "Boris", serif;
+}
+
+.h2 {
+
+
+}
+.header {
+  background: linear-gradient(250deg,whitesmoke,honeydew);
+  /*text-align: center;*/
+
+  /*font-size: 26px;*/
+  font-size: 100%;
+  width: 100%;
+  margin: auto;
+  color: #076620;
+}
+
+
+.Nav {
+
+  background: white;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem calc((100vw - 1000px) / 2);
+  z-index: 12;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
